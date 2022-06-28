@@ -1,14 +1,17 @@
 # Filtrar Valores vazios
-Dentro do arquivo index.js, existem algunsa arrays para testes.
+Dentro do arquivo index.js, existem alguns arrays para testes.
 
 Escreva uma função que receba um array como argumento
 e retorne um array APENAS com os valores positivos, 
-removendo valores como  nil/null, undefined, e valores negativos.
+removendo valores como  null, undefined, e valores negativos.
 
 Exemplos: 
 input: [1,2,3,null,4,null,5]   output: [1,2,3,4,5]
+
 input: [1,2,3,null,4,null,5,-1,6,7]   output: [1,2,3,4,5]
+
 input: [1,2,3,null,4,null,5,6,7,8,9]   output: [1,2,3,4,5]
+
 input: [1,2,3,null,4,null,5]   output: [1,2,3,4,5]
  
 

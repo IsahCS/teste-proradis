@@ -6,7 +6,9 @@ e divida seus dígitos em elementos de um array
  
 Exemplos:  
 input: 10   output: [1,0]
-input: 931   output: [9,3,1]
+
+input: 931   output: [9,3,1] 
+
 input: 193278   output: [1,9,3,2,7,8]
 
 # Instruções Extras

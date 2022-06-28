@@ -2,6 +2,7 @@
 Dentro do arquivo index.js, existe um array no format json contendo informações de Carros e preços.
 
 1º Faça ordenação do array por preço, do menor para o maior.
+
 2º Faça outra ordenação, agora ordenando por ordem alfabética.
  
 

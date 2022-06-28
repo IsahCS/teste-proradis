@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Proradis Trainee</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yantramanav:400,300,100">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- PRoradis logo -->
+    <nav class="navbar navbar-default navbar-static-top">
+        <a href="https://proradis.com.br/" target="_blank">
+		    <img src="https://proradis.com.br/wp-content/uploads/2020/05/Logo-Proradis-01-300x54.png" alt="Proradis logo" />
+		</a>
+    </nav>
+    <!-- Cadastro de pessoas -->
+    <div id="input-area" class="content">
+        <h1>Adicionar Pessoa</h1>
+        <form id="add-persons" onsubmit="return false">
+            <input class="form-field" id="name" type="text" name="name" placeholder="Nome" />
+            <select class="form-field" id="gender" name="gender">
+                <option value="" disabled selected hidden>Sexo</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminimo">Feminino</option>
+            </select>
+            <select class="form-field" id="age" name="age">
+                <option value="" disabled selected hidden>Idade</option>
+                <option value="10">10 anos</option>
+                <option value="20">20 anos</option>
+                <option value="30">30 anos</option>
+                <option value="40">40 anos</option>
+                <option value="50">50 anos</option>
+            </select>
+            <button class="form-field" type="button" id="addbutton"><i class="fa fa-plus"></i></button>
+        </form>
+    </div>
+    <!-- The table persons are inserted in -->
+    <div id="persons-section" class="content">
+        <table class="table table-striped" id="persons-table">
+            <thead>
+                <tr>
+                    <th>Nome<img class="sort_icon" src="img/sort_icon.png" /></th>
+                    <th>Sexo<img class="sort_icon" src="img/sort_icon.png" /></th>
+                    <th>Idade<img class="sort_icon" src="img/sort_icon.png" /></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="insert-to-table">
+                <tr id="tablerow_0">
+                    <td>ALEXANDRE FREITAS DUARTE</td>
+                    <td>Female</td>
+                    <td>3</td>
+                    <td align="right">
+                        <a class="removebutton" id="1">
+                            <i class="fa fa-times" onclick=""></i>
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ul class="pagination" id="pagination-numbers">
+
+        </ul>
+    </div>
+
+    <script>
+      
+        window.onload = function() {
+              //TODO
+        };
+    </script>
+</body>
+
+</html>

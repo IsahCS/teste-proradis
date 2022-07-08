@@ -23,13 +23,23 @@ let carros = [
 
 console.log("Lista de carros: " + JSON.stringify(carros));
 
-
 //TO DO
 //Ordenar do menor preço para o maior 
-console.log("Lista de carros ordenados por preço: ");
+carros.sort(function(a, b){
+    if(a.preco < b.preco){
+        return -1
+    }
+});
+
+console.log("Lista de carros ordenados por preço: " + JSON.stringify(carros));
 
 //TO DO
 //Ordenar por ordem alfabética
-console.log("Lista de carros ordenados por nome: ");
+carros.sort(function(a, b){
+    if(a.nome < b.nome){
+        return -1
+    }
+});
+console.log("Lista de carros ordenados por nome: " + JSON.stringify(carros));
 
 
